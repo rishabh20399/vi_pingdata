@@ -8,11 +8,12 @@ pkg install traceroute
 
 pkg install python
 pkg install python-numpy
-pip install requests
-pip install openpyxl
 
 pkg update
 pkg upgrade
+
+pip install requests
+pip install openpyxl
 ```
 
 3. Set up an SSH key for your termux terminal(SKIP if you already have one)
